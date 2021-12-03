@@ -11,3 +11,15 @@
   ```sh
   git push -u origin master
   ```
+- Delete last commit:
+
+  ```sh
+  git reset --hard HEAD^
+  ```
+
+- Delete last n commits:
+
+  ```sh
+  git reset --hard HEAD^n
+  ```
+
